@@ -1,0 +1,26 @@
+{
+  "crops": {
+    "maize": {
+      "ideal_ph": [5.8, 7.0],
+      "base_npk": [90, 60, 40],
+      "notes": ["Top-dress nitrogen after emergence", "Weed early for better yield"]
+    },
+    "coffee": {
+      "ideal_ph": [5.5, 6.5],
+      "base_npk": [80, 40, 80],
+      "notes": ["Mulch helps moisture retention", "Avoid waterlogging; improve drainage"]
+    },
+    "sesame": {
+      "ideal_ph": [6.0, 7.5],
+      "base_npk": [40, 30, 30],
+      "notes": ["Avoid excessive nitrogen", "Good drainage improves performance"]
+    }
+  },
+  "thresholds": {
+    "low_n": 35,
+    "low_p": 12,
+    "low_k": 80,
+    "low_rainfall_mm": 600,
+    "high_rainfall_mm": 1200
+  }
+}
